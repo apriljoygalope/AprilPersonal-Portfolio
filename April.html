@@ -1,0 +1,435 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Angela Mae | Personal Portfolio</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: #444;
+    line-height: 1.7;
+}
+
+/* HEADER */
+header {
+    background-color: #d88eae;
+    color: white;
+    text-align: center;
+    padding: 30px 15px;
+}
+
+header h1 {
+    font-size: 30px;
+}
+
+/* NAVIGATION */
+nav {
+    background-color: #f8e5ed;
+    padding: 15px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+nav a {
+    color: #a34f77;
+    text-decoration: none;
+    margin: 10px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+nav a:hover {
+    color: #d88eae;
+}
+
+/* CONTAINER */
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 30px auto;
+}
+
+/* HOME */
+.hero {
+    background-color: #f8e5ed;
+    padding: 50px 20px;
+    text-align: center;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+
+.hero h2 {
+    color: #b45d85;
+    font-size: 30px;
+}
+
+.hero p {
+    margin: 10px;
+}
+
+.tag {
+    color: #a34f77;
+    font-weight: bold;
+}
+
+/* SECTIONS */
+.section {
+    background-color: white;
+    padding: 30px;
+    margin-bottom: 25px;
+    border: 1px solid #eeeeee;
+    border-radius: 10px;
+}
+
+.section h2 {
+    color: #c16c92;
+    border-bottom: 2px solid #e9b8ce;
+    padding-bottom: 10px;
+    margin-bottom: 18px;
+}
+
+.section h3 {
+    color: #a85b7e;
+    margin-top: 15px;
+}
+
+/* SKILLS */
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 15px;
+}
+
+.skills span {
+    background-color: #f8e5ed;
+    color: #a34f77;
+    padding: 10px 18px;
+    border-radius: 5px;
+}
+
+/* JAVA CODE */
+.java-box {
+    background-color: #333333;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    overflow-x: auto;
+    margin-top: 15px;
+}
+
+.java-box pre {
+    font-family: Consolas, monospace;
+    font-size: 13px;
+    white-space: pre;
+}
+
+/* CONTACT */
+.contact {
+    background-color: #f8e5ed;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+/* FOOTER */
+footer {
+    background-color: #d88eae;
+    color: white;
+    text-align: center;
+    padding: 22px;
+    margin-top: 40px;
+}
+
+/* MOBILE RESPONSIVE */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 24px;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 5px;
+        font-size: 12px;
+    }
+
+    .section {
+        padding: 20px;
+    }
+
+    .hero h2 {
+        font-size: 24px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<!-- HEADER -->
+<header>
+    <h1>MY PERSONAL PORTFOLIO</h1>
+    <p>BS Information Technology Student</p>
+</header>
+
+<!-- NAVIGATION -->
+<nav>
+    <a href="#home">Home</a>
+    <a href="#personal">About Me</a>
+    <a href="#education">Education</a>
+    <a href="#skills">Skills</a>
+    <a href="#java">Java Code</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<div class="container">
+
+<!-- HOME -->
+<section class="hero" id="home">
+    <h2>Hello, I'm April Joy!</h2>
+
+    <p class="tag">
+        Dreamer | Student | Future IT Professional
+    </p>
+
+    <p>
+        Welcome to my personal portfolio!
+        This website showcases my personal information,
+        educational background, technical skills,
+        and programming project.
+    </p>
+</section>
+
+<!-- PERSONAL INFORMATION -->
+<section class="section" id="personal">
+
+    <h2>Personal Information</h2>
+
+    <h3>About Me</h3>
+
+    <p>
+        Hello! My name is April Joy Galope.
+        I am a first-year Bachelor of Science in
+        Information Technology student.
+        I am passionate about learning new things,
+        improving my knowledge, and developing
+        my skills in technology and programming.
+    </p>
+
+    <p>
+        I believe that every challenge is an
+        opportunity to learn and grow.
+        My dream is to become a successful IT
+        professional and make my family proud.
+    </p>
+
+</section>
+
+<!-- EDUCATIONAL BACKGROUND -->
+<section class="section" id="education">
+
+    <h2>Educational Background</h2>
+
+    <h3>College</h3>
+
+    <p>
+        Our Lady of Sacred Heart College of Guimba, Inc.
+    </p>
+
+    <p>
+        Bachelor of Science in Information Technology
+    </p>
+
+    <p>
+        First Year | School Year 2026-2027
+    </p>
+
+    <h3>My Educational Goal</h3>
+
+    <p>
+        To successfully finish my college education,
+        gain more knowledge in information technology,
+        and prepare myself for my future career.
+    </p>
+
+</section>
+
+<!-- SKILLS -->
+<section class="section" id="skills">
+
+    <h2>My Skills</h2>
+
+    <p>
+        Here are some of the skills I am developing
+        as an Information Technology student:
+    </p>
+
+    <div class="skills">
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>Java</span>
+        <span>Basic Programming</span>
+        <span>Problem Solving</span>
+        <span>Computer Literacy</span>
+        <span>Creativity</span>
+        <span>Teamwork</span>
+    </div>
+
+    <h3>My Strengths</h3>
+
+    <p>
+        I am hardworking, responsible, creative,
+        willing to learn, and determined to improve
+        my abilities.
+    </p>
+
+</section>
+
+<!-- JAVA PROJECT -->
+<section class="section" id="java">
+
+    <h2>My Java Programming Project</h2>
+
+    <h3>Cash Register Transaction Analyzer</h3>
+
+    <p>
+        This is my final performance task in CC102.
+        The program accepts 15 transaction amounts,
+        calculates the total and average, counts
+        transactions worth at least P1,000,
+        identifies the smallest transaction,
+        and sorts the amounts in descending order.
+    </p>
+
+    <h3>Java Source Code</h3>
+
+    <div class="java-box">
+<pre>
+import java.util.Scanner;
+import java.util.Arrays;
+
+public class DownloadTimeTracker {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        double[] times = new double[12];
+        double total = 0;
+        double fastest, slowest;
+        int count = 0;
+
+        System.out.println(" DOWNLOAD TIME TRACKER ");
+
+        // Input 12 download times
+        for (int i = 0; i < times.length; i++) {
+            do {
+                System.out.print("Enter download time " + (i + 1) + " (seconds): ");
+                times[i] = input.nextDouble();
+
+                if (times[i] <= 0) {
+                    System.out.println("Please enter a positive value.");
+                }
+            } while (times[i] <= 0);
+
+            total += times[i];
+
+            if (times[i] < 30) {
+                count++;
+            }
+        }
+
+        // Calculate average
+        double average = total / times.length;
+
+        // Find fastest and slowest
+        fastest = times[0];
+        slowest = times[0];
+
+        for (int i = 1; i < times.length; i++) {
+            if (times[i] < fastest) {
+                fastest = times[i];
+            }
+
+            if (times[i] > slowest) {
+                slowest = times[i];
+            }
+        }
+
+        // Sort download times
+        Arrays.sort(times);
+
+        // Display results
+        System.out.println("\n DOWNLOAD RESULTS ");
+        System.out.printf("Average Time: %.2f seconds%n", average);
+        System.out.println("Fastest Download: " + fastest + " seconds");
+        System.out.println("Slowest Download: " + slowest + " seconds");
+        System.out.println("Downloads below 30 seconds: " + count);
+
+        System.out.println("\nDownload Times in Ascending Order:");
+        for (double time : times) {
+            System.out.println(time + " seconds");
+        }
+
+        input.close();
+    }
+}
+ 
+
+</pre>
+    </div>
+
+</section>
+
+<!-- CONTACT INFORMATION -->
+<section class="section" id="contact">
+
+    <h2>Contact Information</h2>
+
+    <div class="contact">
+
+        <p>
+            <strong>Email:</strong>
+            apriljoygalope@gmail.com
+        </p>
+
+        <p>
+            <strong>Location:</strong>
+            Guimba, Nueva Ecija
+        </p>
+
+        <p>
+            <strong>Course:</strong>
+            BS Information Technology
+        </p>
+
+    </div>
+
+</section>
+
+</div>
+
+<!-- FOOTER -->
+<footer>
+
+    <p>© 2026 April Joy Galope</p>
+
+    <p>
+        Dream Big. Keep Learning. Never Give Up!
+    </p>
+
+</footer>
+
+</body>
+</html>
